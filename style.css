@@ -65,7 +65,7 @@ nav ul li a::after {
     background-clip: text;
     -webkit-text-fill-color: transparent;
 }
-.hamburger {
+#burgerMenu {
   display: none;
   font-size: 20px;
   color: rgb(0, 0, 0);
@@ -266,7 +266,6 @@ nav ul li a::after {
 .project{
   position: relative;
   border-radius: 10px;
-  /* border: 0.5px solid var(--gris); */
   box-shadow: 3px 3px 8px rgba(0, 0, 0, 0.1);
 }
 .project img{
@@ -337,7 +336,7 @@ nav ul li a::after {
 }
 
 .formContainer {
-  max-width:  50%;
+  width:  50%;
   background-color: white;
   padding: 2rem;
   border-radius: 10px;
@@ -346,6 +345,7 @@ nav ul li a::after {
 
 .formContainer h2 {
   margin-bottom: 0rem;
+  font-size: 2.5rem;
 }
 .formContainer p {
   margin: 1rem 0;
@@ -395,7 +395,7 @@ input:focus, select:focus, textarea:focus {
 }
 
 .contactInfo {
-  max-width: 48%;
+  width: 42%;
   display: flex;
   flex-direction: column;
   gap: 40px;
@@ -444,8 +444,14 @@ footer{
   font-weight: 500;
   margin-bottom: 1.5rem;
 }
-.me, .navBar{
-  max-width: 30%;
+.me{
+  width: 30%;
+}
+.navBar{
+  width: 15%;
+}
+.contact{
+  width: 35%;
 }
 .me p{
   margin: 1.5rem 0;
@@ -539,72 +545,57 @@ footer .buttons{
 }
 
 @media (max-width: 768px) {
-  #nav-menu {
+  #nav {
     display:none;
 }
-.hamburger {
+#burgerMenu {
     display: block;
 }
-
-#nav-menu.show {
+#nav.open {
     display: flex;
     flex-direction: column;
-    align-items: center;
-    gap: 20px;
-    background-color: #fff;
-    padding: 20px;
-    border-radius: 10px;
+    gap: 50px;
+    background-color: var(--DarckColor);
+    padding: 3rem;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
     position: absolute;
-    top: 50px;
+    top: 0px;
     right: 0;
-    width: 30%;
-    height: auto;
+    width: 50%;
+    height: 100vh;
 }
-.contentInfo{
+#nav ul{
+  align-items: start;
+  flex-direction: column;
+  gap: 10px;
+}
+#nav ul li a{
+  color: white;
+  margin: 0.5rem 0;
+}
+.personne{
+  width: 70%;
+  height:auto;
+  margin: 2rem auto;
+}
+.contentInfo, .project{
   width: 100%;
 }
-  #about .content{
+  #about .content, .chiffres, .skills, #resume,  .projects,  #contact .container, .footer{
+      display: flex;
       flex-direction: column;
-      text-align: center;
+      align-items: center;
+      gap: 30px;
   }
-  #about .buttons{
-    margin: 1rem auto;
-  }
-  nav ul {
-      flex-direction: column;
-      gap: 10px;
-  }
-  .personne{
+  .skill{
     width: 70%;
-    height:auto;
-    margin: 2rem auto;
   }
-  .chiffres{
-    display: grid;
-    grid-template-columns: repeat(2,1fr);
-    gap: 80px;
+  .Experiences, .Education, .projects, .formContainer, .contactInfo, .footer{
+    width: 95%;
+  }
+  .me, .navBar, .contact{
+    width: 80%;
   }
  
-  .skills{
-    grid-template-columns: repeat(2, 1fr);
-    gap: 40px;
-
-  }
-  .projects{
-    grid-template-columns: repeat(1, 1fr);
-    width: 70%;
-    margin: 0 auto;
-  }
-  
-  #contact .container, .footer{
-    flex-direction: column;
-    gap: 10px;
-    width: 60%;
-    margin: 0 auto;
-  }
-  .formContainer, .contactInfo, .me, .navBar, .contact{
-    max-width: 100%;
-  }
 }
 

@@ -1,8 +1,14 @@
-const hamburgerIcon = document.getElementById('hamburger-icon');
-const navMenu = document.getElementById('nav-menu');
+const burgerMenu = document.getElementById('burgerMenu');
+const nav = document.getElementById('nav');
 
 
-hamburgerIcon.addEventListener('click', () => {
+burgerMenu.addEventListener('click', () => {
     
-    navMenu.classList.toggle('show');
+    nav.classList.toggle('open');
+});
+
+document.addEventListener('click', (event) => {
+    if (!nav.contains(event.target) && !burgerMenu.contains(event.target)) {
+        nav.classList.remove('open'); 
+    }
 });
