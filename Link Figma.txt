@@ -1,1 +1,5 @@
+<<<<<<< HEAD
 https://www.figma.com/design/xzUCjYk9ch2th8fuv8Mzot/Untitled?node-id=0-1&t=IGZeBocvM4KUBy2J-1
+=======
+https://www.figma.com/design/xzUCjYk9ch2th8fuv8Mzot/Untitled?node-id=0-1&t=aWY8UPQiZWhkY4Jf-1
+>>>>>>> b6d319aee8705946b61b1bf3f8453ce078d47fb9
