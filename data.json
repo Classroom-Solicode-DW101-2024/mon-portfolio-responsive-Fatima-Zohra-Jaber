@@ -1,0 +1,103 @@
+{
+    "skills": [
+      { "name": "HTML", "image": "images/html.svg" },
+      { "name": "CSS", "image": "images/css.svg" },
+      { "name": "JavaScript", "image": "images/js.svg" },
+      { "name": "Nodejs", "image": "images/nodejs.svg" },
+      { "name": "Bootstrap", "image": "images/bootstrap.svg" },
+      { "name": "MySQL", "image": "images/mysql.svg" }
+    ],
+    "experiences": [
+    {
+        "date": "08.2017 - 12.2023",
+        "title": "Responsible for Data Monitoring and Control",
+        "place": "TARGA-AIDE, Tangier, Morocco"
+    },
+    {
+        "date": "01.2017 - 07.2017",
+        "title": "Human Resources Manager",
+        "place": "NUDO FASHION, Tangier, Morocco"
+    },
+    {
+        "date": "02.2016 - 12.2016",
+        "title": "Human Resources Assistant",
+        "place": "CITYCO, Tangier, Morocco"
+    },
+    {
+        "date": "09.2014 - 05.2015",
+        "title": "Technician in GIS (Geographic Information Systems)",
+        "place": "TARGA-AIDE, Tangier, Morocco"
+    },
+    {
+        "date": "04.2014 - 05.2014",
+        "title": "Customer Service Intern",
+        "place": "Supermarket Atacadao, Tangier, Morocco"
+    }
+    ],
+    "education": [
+    {
+        "date": "09.2024 - Present",
+        "title": "Training in web development",
+        "place": "SOLICODE, Tangier, Morocco"
+    },
+    {
+        "date": "09.2015 - 06.2019",
+        "title": "Bachelor in Economics and Management",
+        "place": "Abdelmalek Essaâdi University, Tangier, Morocco"
+    },
+    {
+        "date": "12.2013 - 07.2014",
+        "title": "Training in Sales Techniques",
+        "place": "UNFM Association, Tangier, Morocco"
+    },
+    {
+        "date": "09.2011 - 07.2013",
+        "title": "Diploma as a Specialized Technician in Software Development",
+        "place": "ISMONTIC Tangier, Morocco"
+    },
+    {
+        "date": "09.2010 - 06.2011",
+        "title": "High School Diploma in Physical Sciences",
+        "place": "Abdelmalek Essaâdi University, Tangier, Morocco"
+    }
+    ],
+    "projects": [
+      {
+        "title": "Travel Agency",
+        "image": "images/Travel-Agency.png",
+        "technologies": ["HTML", "CSS"],
+        "github": "https://github.com/Fatima-Zohra-Jaber/reproduire-une-maquette-en-html-css"
+      },
+      {
+        "title": "Product list with cart",
+        "image": "images/desktop-design-cart-full.jpg",
+        "technologies": ["HTML", "CSS", "JS"],
+        "github": "https://github.com/Fatima-Zohra-Jaber/Product-list-with-cart"
+      },
+      {
+        "title": "SoliCode website remake",
+        "image": "images/SoliCode.png",
+        "technologies": ["HTML", "CSS", "JS"],
+        "github": "https://github.com/Fatima-Zohra-Jaber/SoliCode_Website_remake"
+      },
+      {
+        "title": "Wishreads",
+        "image": "images/library.PNG",
+        "technologies": ["HTML", "CSS", "JS", "JSON"],
+        "github": "#"
+      },
+      {
+        "title": "Tanger restaurants",
+        "image": "images/tanger-restaurants.PNG",
+        "technologies": ["HTML", "CSS", "JS", "JSON", "API"],
+        "github": "https://github.com/Fatima-Zohra-Jaber/Blog-de-restaurants-Tanger"
+      },
+      {
+        "title": "Blogr landing page",
+        "image": "images/Blogr.jpg",
+        "technologies": ["HTML", "CSS", "JS"],
+        "github": "https://github.com/Fatima-Zohra-Jaber/Blogr"
+      }
+    ]
+  }
+  
